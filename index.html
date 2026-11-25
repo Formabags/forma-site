@@ -47,11 +47,9 @@ footer{border-top:1px solid rgba(255,255,255,.12);margin:0 clamp(20px,5vw,64px);
 footer a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(127,179,151,.6);padding-bottom:1px}
 footer a:hover{border-color:#fff}
 footer .k{font-family:Poppins,sans-serif;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--g3);margin-right:10px;font-weight:500}
-footer .info{display:flex;flex-wrap:wrap;gap:10px 40px}
-footer .addr{color:#fff}
 footer .legal{display:flex;align-items:center;flex-wrap:wrap;gap:4px 12px;font-size:11px;line-height:1.5;color:#8fb8a1;letter-spacing:.03em}
 footer .legal i{width:3px;height:3px;border-radius:50%;background:var(--g3);opacity:.8}
-@media (max-width:640px){footer .info{flex-direction:column;gap:8px}footer .legal{flex-direction:column;align-items:flex-start;gap:2px}footer .legal i{display:none}}
+@media (max-width:640px){footer .legal{flex-direction:column;align-items:flex-start;gap:2px}footer .legal i{display:none}}
 
 /* entrance: the three strokes of the symbol assemble, then the wordmark rises */
 @media (prefers-reduced-motion:no-preference){
@@ -98,7 +96,7 @@ footer .legal i{width:3px;height:3px;border-radius:50%;background:var(--g3);opac
   </main>
 
   <footer>
-    <div class="info"><div><span class="k">Contact</span><a href="mailto:peter@formabags.com">peter@formabags.com</a></div><div><span class="k">Address</span><span class="addr">33 Lower Fitzwilliam Street, Dublin 2, Ireland</span></div></div>
+    <div><span class="k">Contact</span><a href="mailto:peter@formabags.com">peter@formabags.com</a></div>
     <div class="legal"><span>© 2027 Red Coast Ltd. All rights reserved.</span><i aria-hidden="true"></i><span>FORMA is a trading name of Red Coast Ltd.</span></div>
   </footer>
 </div>
