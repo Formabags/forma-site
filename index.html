@@ -21,10 +21,6 @@ body{background:var(--g);color:#fff;font-family:Inter,"Helvetica Neue",Arial,san
 
 /* background: oversized ghost symbols + fine grid + vignette */
 .bg{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
-.bg::before{content:"";position:absolute;inset:0;background:
-  linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px) 0 0/64px 64px,
-  linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px) 0 0/64px 64px;
-  -webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 50%,#000 20%,transparent 75%);mask-image:radial-gradient(ellipse 70% 60% at 50% 50%,#000 20%,transparent 75%)}
 .bg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 50% 45%,transparent 40%,rgba(0,20,10,.45) 100%)}
 .ghost{position:absolute;width:min(78vw,1100px);fill:#fff;opacity:.045}
 .ghost.l{left:-30vw;bottom:-18vh;transform:rotate(-8deg)}
